@@ -11,7 +11,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url(bg.png) center center fixed no-repeat;
+    background: url(bg.png) center center fixed repeat;
 }
 video {
     position: fixed;
