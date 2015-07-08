@@ -1,0 +1,34 @@
+/* 文字コードを"utf-8"にして保存 */
+@charset "utf-8";
+/* すべての要素に適用する */
+*{
+	margin: 0px; /* マージン（領域）の幅 */
+	padding: 0px; /* パディング（余白）の幅 */
+	font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,Verdana,'MS　Pゴシック',sans-serif;
+}
+
+/* bodyタグの説明 */
+body {
+    margin: 0;
+    padding: 0;
+    background: url(bg.png) center center fixed no-repeat;
+}
+video {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+p{
+    color: #fff;
+    font-size: 377%;
+    font-weight: bold;
+    line-height: normal;
+    text-align: center;
+    position: relative;
+    display: block;
+}
